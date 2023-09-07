@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="main">
+        <div class="pictured-background">
+            <div class="odin-logo">
+                <img src="./images/odin-lined.png" alt="logo" class="logo">
+                <h1>ODIN</h1>
+            </div>
+            <footer>
+                &copy; 2023 by ProsperJohn9. All rights reserved.
+            </footer>
+        </div>
+        <div class="right">
+            <div class="text">
+                <p>This is not a real online service!
+                     You know you need something <br> like 
+                     this in your life to help you 
+                    realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="#">
+                <div class="form-background">
+                    <h3 class="form-title">Let's do this!</h3>
+                    <div class="form-row">
+                        <div class="form-row-input">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                        </div>
+                        <div class="form-row-input1">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-row-input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required placeholder="email@email.com">
+                        </div>
+                        <div class="form-row-input1">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" name="number" id="number" required
+                            format="xxx-xxx-xxxx" placeholder="501-326-4444"
+                            min="10" max="10">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-row-input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                            <p id="error-message"></p>
+                        </div>
+                        <div class="form-row-input1">
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <input type="password" name="password-confirm" id="password-confirm" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+            <div class="login">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
