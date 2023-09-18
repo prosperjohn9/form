@@ -24,6 +24,11 @@ footer {
     font-size: x-small;
     margin-bottom: 12px;
 }
+footer img {
+    width: 14px;
+    height: 14px;
+    margin-left: 2px;
+}
 @font-face {
     font-family: "custom";
     src: url("./font/Norse-Bold.otf") format("opentype"),
